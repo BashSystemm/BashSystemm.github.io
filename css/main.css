@@ -1,25 +1,38 @@
 /*RESET*/
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #000000;
+    background-color: black
 }
 
 /*Typography*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+
 /*Title*/
 .title{
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 h1{
     color: #ffffff;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: Hacked;
+    font-size: 10em;
 }
 span{
     background-color: rgb(226, 43, 119);
     color: rgb(51, 255, 255);
 }
+
+
+/*RESPONSIVES*/
+/*
+@media (min-width: 1200px){
+
+}
+*/
+
